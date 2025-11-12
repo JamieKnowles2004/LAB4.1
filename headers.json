@@ -1,0 +1,12 @@
+[
+  {
+    "url": "http://scanme.nmap.org",
+    "status": 200,
+    "server": "Apache/2.4.7 (Ubuntu)"
+  },
+  {
+    "url": "http://example.com",
+    "status": 200,
+    "server": null
+  }
+]
