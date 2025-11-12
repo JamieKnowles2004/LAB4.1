@@ -1,0 +1,30 @@
+Name:Jamie Knowles 
+Student Number: C00307559
+Date:12/11/25
+
+HTTP/1.1 200 OK
+Date: Wed, 12 Nov 2025 13:14:47 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+
+Step 1
+- Status line: HTTP/1.1 200 OK — means the request worked.
+- Server header: Apache/2.4.7 (Ubuntu) — specific version shown.
+
+Step 2
+- Page title: Go ahead and ScanMe!
+- Form elements: None found.
+
+Step 3
+- requests and curl gave same result (200 OK, Apache/2.4.7).
+- They can differ if redirects or user agents change behaviour.
+
+Step 4
+- When using MyTestAgent/1.0, httpbin showed the header change.
+- It means some servers watch User-Agent and react differently.
+
+Step 5
+- 3 useful details: status code, server header, content type.
+- Defensive tip: hide server version and block suspicious agents.
